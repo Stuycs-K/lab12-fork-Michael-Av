@@ -3,6 +3,7 @@
 #include <errno.h>
 #include <unistd.h>
 #include <sys/wait.h>
+#include <signal.h>
 
 int main(){
   pid_t p;
